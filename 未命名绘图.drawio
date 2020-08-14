@@ -1,62 +1,104 @@
-<mxfile host="app.diagrams.net" modified="2020-08-13T16:29:15.707Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="Pil0TmxT88LaXOvlFYEU" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-14T03:10:26.685Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="yZTDTe6-GQFYpc_qTQcX" version="13.6.2" type="github">
   <diagram id="-BkxQy_i7IcpSxh3ZOu9" name="第 1 页">
     <mxGraphModel dx="1186" dy="1933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-1" value="WindowAssigner&amp;lt;T,W&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-1" value="WindowAssigner&amp;lt;T,W&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-2" value="窗口分配器：将0或N个窗口分配个一个元素&lt;br&gt;在窗口操作中，元素按key(如果可用)和分配给他的窗口进行分组，具有相同键和窗口的元素集称为pane。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-2" value="窗口分配器：将0或N个窗口分配个一个元素&lt;br&gt;在窗口操作中，元素按key(如果可用)和分配给他的窗口进行分组，具有相同键和窗口的元素集称为pane。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="160" y="70" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-3" value="范型&amp;lt;T,W&amp;gt;:T代表元素类型，W代表窗口类型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-3" value="范型&amp;lt;T,W&amp;gt;:T代表元素类型，W代表窗口类型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="370" y="150" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-4" value="Window" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="-50" width="120" height="60" as="geometry" />
+        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-4" value="Window" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="-530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-5" value="maxTimeStamp :long" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="210" y="-35" width="260" height="30" as="geometry" />
+        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-5" value="maxTimeStamp :long" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="288" y="-440" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-6" value="assignerWindows" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-6" value="assignerWindows" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="235" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-7" value="参数：T,Long:TimeStamp,WindowAssignerContext" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-7" value="参数：T,Long:TimeStamp,WindowAssignerContext" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="360" y="240" width="348" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-8" value="返回值：Collection&amp;lt;W&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-8" value="返回值：Collection&amp;lt;W&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="288" y="265" width="348" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-9" value="分配窗口：将0或N个窗口分配个一个元素T及T的时间戳，返回窗口集合" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-9" value="分配窗口：将0或N个窗口分配个一个元素T及T的时间戳，返回窗口集合" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="284" y="210" width="396" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-10" value="getCurrentProcessingTime()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-10" value="getCurrentProcessingTime()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="810" y="280" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-11" value="&lt;br&gt;返回值：CurrentProcessingTime" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-11" value="&lt;br&gt;返回值：CurrentProcessingTime" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="970" y="296.25" width="200" height="17.5" as="geometry" />
         </mxCell>
-        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-12" value="assignerWindows的内部类" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-12" value="assignerWindows的内部类" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="610" y="165" width="396" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-13" value="WindowAssignerContext" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-13" value="WindowAssignerContext" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-14" value="getDefaultTrigger" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-14" value="getDefaultTrigger" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="340" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-15" value="参数：StreamExecutionEnvrionment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-15" value="参数：StreamExecutionEnvrionment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="326" y="350" width="348" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-16" value="返回值：Trigger&amp;lt;T,W&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-16" value="返回值：Trigger&amp;lt;T,W&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="288" y="370" width="348" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-17" value="Trigger" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-17" value="Trigger" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-18" value="具有相同key和窗口的元素集称pane。" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gBQ-KpkC6PaaC-N7ahDq-18" value="具有相同key和窗口的元素集称pane。" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="417" y="110" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XiYyYNaEAUN3Bepfavyl-2" value="TimeWindow" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="-460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XiYyYNaEAUN3Bepfavyl-3" value="&amp;nbsp;TimeWindow(long start, long end)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="-380" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XiYyYNaEAUN3Bepfavyl-4" value="maxTimestamp()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="-320" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XiYyYNaEAUN3Bepfavyl-6" value="&lt;span style=&quot;text-align: left&quot;&gt;intersects(TimeWindow other)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="-260" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XiYyYNaEAUN3Bepfavyl-7" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;cover(TimeWindow other)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="-200" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XiYyYNaEAUN3Bepfavyl-8" value="this.start &lt;= other.end &amp;&amp; this.end &gt;= other.start;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="-250" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XiYyYNaEAUN3Bepfavyl-9" value="new TimeWindow(Math.min(start, other.start), Math.max(end, other.end))" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="-190" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XiYyYNaEAUN3Bepfavyl-10" value="Serializer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="-140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XiYyYNaEAUN3Bepfavyl-12" value="TypeSerializerSingleton&lt;TimeWindow&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="387" y="-125" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XiYyYNaEAUN3Bepfavyl-13" value="GlobalWindow" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="-460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XiYyYNaEAUN3Bepfavyl-14" value="maxTimestamp()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="-380" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XiYyYNaEAUN3Bepfavyl-15" value="end -1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="-305" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XiYyYNaEAUN3Bepfavyl-16" value="Long.max" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="-370" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XiYyYNaEAUN3Bepfavyl-17" value="&lt;div style=&quot;text-align: left&quot;&gt;getWindowStartWithOffset&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-70" width="230" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
