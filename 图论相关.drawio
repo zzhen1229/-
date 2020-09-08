@@ -1,1 +1,210 @@
-<mxfile host="app.diagrams.net" modified="2020-09-05T02:26:44.624Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" version="13.6.5" etag="9kGWmcuzGbVBMePupQ6D" type="github"><diagram id="7sdis9wMDwvyOM3Ry5ic">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-08T07:09:41.138Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="4USfXSbA00niWWlDe2XT" version="13.6.5" type="github">
+  <diagram id="7sdis9wMDwvyOM3Ry5ic" name="第 1 页">
+    <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-1" value="图" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PLX0bbOsfiNh4W4TcrN9-8" target="PLX0bbOsfiNh4W4TcrN9-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PLX0bbOsfiNh4W4TcrN9-8" target="PLX0bbOsfiNh4W4TcrN9-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-8" value="有向图" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1180" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-9" value="无向图" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="520" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-10" value="加权图" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="584.5" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-11" value="加权有向图" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="640" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PLX0bbOsfiNh4W4TcrN9-12" target="PLX0bbOsfiNh4W4TcrN9-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-12" value="术语" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PLX0bbOsfiNh4W4TcrN9-13" target="PLX0bbOsfiNh4W4TcrN9-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-36" value="连通的" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PLX0bbOsfiNh4W4TcrN9-35">
+          <mxGeometry x="-0.1" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PLX0bbOsfiNh4W4TcrN9-13" target="PLX0bbOsfiNh4W4TcrN9-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-54" value="二分图" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PLX0bbOsfiNh4W4TcrN9-53">
+          <mxGeometry x="0.025" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-13" value="顶点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PLX0bbOsfiNh4W4TcrN9-13" target="PLX0bbOsfiNh4W4TcrN9-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="430" />
+              <mxPoint x="680" y="430" />
+              <mxPoint x="680" y="470" />
+              <mxPoint x="600" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-50" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;相邻的&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PLX0bbOsfiNh4W4TcrN9-49">
+          <mxGeometry x="0.0667" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PLX0bbOsfiNh4W4TcrN9-15" target="PLX0bbOsfiNh4W4TcrN9-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-56" value="度数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PLX0bbOsfiNh4W4TcrN9-55">
+          <mxGeometry x="-0.36" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-15" value="边" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-16" value="一个边两头的节点称为相邻顶点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-17" value="由一个顶点出发，有几条边" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="PLX0bbOsfiNh4W4TcrN9-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="640" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-45" value="稀疏图" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PLX0bbOsfiNh4W4TcrN9-44">
+          <mxGeometry x="-0.25" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PLX0bbOsfiNh4W4TcrN9-17" target="PLX0bbOsfiNh4W4TcrN9-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="610" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-48" value="稠密图" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PLX0bbOsfiNh4W4TcrN9-47">
+          <mxGeometry x="-0.325" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PLX0bbOsfiNh4W4TcrN9-20" target="PLX0bbOsfiNh4W4TcrN9-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-20" value="路径" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PLX0bbOsfiNh4W4TcrN9-21" target="PLX0bbOsfiNh4W4TcrN9-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-21" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;verdana&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;通过边来连接，按顺序的从一个顶点到另一个顶点中间经过的顶点集合&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-23" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;verdana&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;没有重复顶点的路径&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-26" value="简单路径" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="760" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PLX0bbOsfiNh4W4TcrN9-27" target="PLX0bbOsfiNh4W4TcrN9-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PLX0bbOsfiNh4W4TcrN9-27" target="PLX0bbOsfiNh4W4TcrN9-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-42" value="无环图" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PLX0bbOsfiNh4W4TcrN9-41">
+          <mxGeometry x="0.025" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-27" value="环" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PLX0bbOsfiNh4W4TcrN9-29" target="PLX0bbOsfiNh4W4TcrN9-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-33" value="简单环" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PLX0bbOsfiNh4W4TcrN9-32">
+          <mxGeometry x="-0.075" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-29" value="至少有一条边，且起点和终点相同" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-31" value="不含有重复顶点和边的环" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PLX0bbOsfiNh4W4TcrN9-34" target="PLX0bbOsfiNh4W4TcrN9-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-39" value="连通图" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PLX0bbOsfiNh4W4TcrN9-38">
+          <mxGeometry x="-0.375" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-34" value="从一个顶点出发，可通过至少一条边到达另一个顶点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-37" value="图中任意一个顶点，可通过一条边到达另一个任意顶点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-40" value="一种不包含环的图" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-43" value="每个顶点的度数都不高" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-46" value="每个顶点的度数都很高" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-52" value="可以将图中所有顶点分为两部分" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-57" value="度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1180" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-59" value="由一个顶点出发的总边数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1110" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-60" value="指一个顶点边的总数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1240" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-61" value="入度" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="PLX0bbOsfiNh4W4TcrN9-57" target="PLX0bbOsfiNh4W4TcrN9-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="1220" as="sourcePoint" />
+            <mxPoint x="550" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-62" value="出度" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="PLX0bbOsfiNh4W4TcrN9-57" target="PLX0bbOsfiNh4W4TcrN9-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="1210" as="sourcePoint" />
+            <mxPoint x="390" y="1150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-63" value="头：边出度的顶点&lt;br&gt;尾：边入度的顶点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1300" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-66" value="七桥问题" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1480" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PLX0bbOsfiNh4W4TcrN9-67" value="&lt;span style=&quot;color: rgb(65 , 65 , 65) ; font-family: , , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;simsun&amp;#34; , sans-serif ; font-size: 17px ; background-color: rgb(255 , 255 , 255)&quot;&gt;G=(V, E)。&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1500" width="100" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
